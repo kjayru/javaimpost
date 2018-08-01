@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+
+        title desarrollo java
+
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css")
+        
+    body
+        nav#principal
+            a(href="#") 
+                span Inicio
+            a(href="#") 
+                span Servicios
+            a(href="#") 
+                span Contacto
+
+        #container
+            .row
+                #header.cuerpo
+                    .bloque
+                        p Texto de prueba relacionado con ls pruebas
+                button(type="button")#btnEvento EVENTO
+                #listado
+                #listado2 
+            .row
+                .botones
+                    button(type="button")#txtBoton carga TXT
+                    button(type="button")#jsonBoton cargar json
+                    button(type="button")#apiBoton cargar api
+            .row
+                .canvas
+                    #resultados               
+        script(src="main.js")
+
